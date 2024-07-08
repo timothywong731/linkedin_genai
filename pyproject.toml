@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "linkedin-genai"
+version = "0.1.0"
+description = ""
+authors = ["Timothy Wong"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10, <=3.13"
+crewai = "^0.36.0"
+duckduckgo-search = "^6.1.9"
+langchain-google-vertexai = "^1.0.6"
+html2text = "^2024.2.26"
+gcloud = "^0.18.3"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
